@@ -1,0 +1,11 @@
+/**
+ * single-source shortest path algorithm => it helps to find the shortest distance between a single source and all other nodes.
+ * works both on directed and undirected graphs
+ * works on non negative weighted graphs.
+ * Its a greedy algo. similar to prim's algo
+ * finding minimum spanning trees.
+ *
+ * Time Complexity: O(E + Vlog V) when a Fibonacci heap is used, or O(V + E log V) for a Binary heap.
+ * Space Complexity: O(V). We need to store V vertices in our data structure.
+ */
+
